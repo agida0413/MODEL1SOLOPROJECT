@@ -256,6 +256,7 @@ public void replyBoardInsert(int rno,RboardVO vo) {
 		db_gi=rs.getInt(1);
 		db_gtab=rs.getInt(2);
 		db_gon=rs.getInt(3);
+		
 		rs.close();
 		
 		sql="UPDATE r_board SET "

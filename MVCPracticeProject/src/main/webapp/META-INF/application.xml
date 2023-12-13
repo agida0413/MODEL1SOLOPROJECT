@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+<bean id="category" class="com.sist.model.categoryModel"></bean>
+<bean id="delete_ok" class="com.sist.model.delete_okModel"></bean>
+<bean id="delete" class="com.sist.model.deleteModel"></bean>
+<bean id="detail" class="com.sist.model.detailModel"></bean>
+<bean id="insert_ok" class="com.sist.model.insert_okModel"></bean>
+<bean id="insert" class="com.sist.model.insertModel"></bean>
+<bean id="list" class="com.sist.model.listModel"></bean>
+<bean id="main" class="com.sist.model.mainModel"></bean>
+<bean id="update_ok" class="com.sist.model.update_okModel"></bean>
+<bean id="update" class="com.sist.model.updateModel"></bean>
+
+
+</beans>
